@@ -22,7 +22,7 @@ public class Config {
 
     public int getPredictNumberOfCoins() {
         if (predictNumberOfCoins > 10) {
-            predictNumberOfCoins = 10;
+            predictNumberOfCoins = 5;
         }
         return predictNumberOfCoins;
     }
